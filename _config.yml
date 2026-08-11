@@ -1,0 +1,9 @@
+title: Runestone
+description: A custom xd6 Norse TTRPG
+theme: minima
+markdown: kramdown
+
+exclude:
+  - "Sorcery.md"
+  - "Referee Resources.md"
+  - CLAUDE.md

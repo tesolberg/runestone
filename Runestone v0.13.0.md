@@ -1,3 +1,8 @@
+---
+title: Runestone
+permalink: /
+---
+
 # RUNESTONE
 
 *v0.13.0*
@@ -29,11 +34,8 @@ This work is released under CC BY-NC 4.0.
 - [Overland Travel](#overland-travel)
 - [Site Exploration](#site-exploration)
 - [Equipment and Economics](#equipment-and-economics)
-- [Magic](#magic)
 
-Running the Game and Bestiary have moved to the companion file **Referee Resources.md**.
-
-*(Magic is included here for navigation even though it's absent from the original PDF's own table of contents.)*
+Magic has moved to the companion file **Sorcery.md**. Running the Game and Bestiary have moved to the companion file **Referee Resources.md**.
 
 ---
 
@@ -97,11 +99,11 @@ The basic scene procedure is zoomed in or out to match the scale of the scene's 
 
 **Zoomed-in example:** The Ref describes the company arriving at the manor of an allied minor noble, only to find the grounds eerily quiet, and the main door to the manor visibly forced open. The players narrates how they quietly enter the building, and the Ref describes how they arrive in the main hall, and that they suddenly hear a creak from a floorboard in the next room. The Ref asks the players what they do. After some frantic hand-signaling, one player states she moves to the door where the sound emanated from, while the other players indicate they stay put and keep quiet to not give away their presence. The Ref describes the PC now standing by the door hearing a soft shuffling sound on the other side, like someone turning over pages in a book.
 
-#### Resolving actions
+### Resolving actions
 
 The players describe what they do, and there is usually no need for the Ref to provide a second description of their action. The Ref goes directly into describing how the environment reacts based on how the fictional game world is supposed to work. If the action seems like it simply will not work, the Ref tells this to the player. If the action is risky, the Ref asks for a check.
 
-##### Risky actions
+### Risky actions
 The short definition of a risky action is that something valuable is at stake. This can be anything related to the players' goals or their means to achieve their goals, including, but not limited to:
 
 - Opportunities
@@ -135,7 +137,7 @@ The core resolution mechanic is called a check. To resolve a check:
 > **REF INFO**
 > Before the dice are rolled, it should be clear to everyone at the table what will happen on a failed check, and on a successful check. Therefore, there is no reason why the player should not themselves narrate how their action succeeds or fails.
 
-#### Supreme outcomes
+### Supreme outcomes
 
 Rolling one or more hits above the requirement indicates a supreme outcome. When you get a supreme outcome, choose one additional effect from the list below and incorporate it into step 5 above.
 
@@ -147,17 +149,35 @@ Rolling one or more hits above the requirement indicates a supreme outcome. When
 - **Greater progress.** The action leads to greater progress than expected.
 - **Help an ally.** The action compensates for an ally that is struggling. This is incorporated into group checks where more than one member of the company rolls. A player choosing this effect can compensate for an ally failing their roll.
 
-#### Opposed checks
+### Opposed checks
 
 When one character goes up against another in a contest, each rolls a number of d6s equal to their relevant skill level, and the one rolling the most hits wins. If they roll the same number of hits, the dice with the highest number from both rolls are compared, with the highest die winning. If the highest die is equal, the next highest dice are compared, etc. A tied result signifies an unchanged situation, usually favoring the defender, if there is one.
 
 Rolling 1 or more hits over the opponent signifies a better outcome for the one winning the check, and is used during combat to resolve attacks.
 
-#### Modifiers to checks
+### Modifiers to checks
 
 When you have a significant advantage or disadvantage in the fictional situation, add or remove 1d6 before you roll, respectively (signified as +1d and -1d). If a roll nets you 0d6, roll 2d6 and keep the lowest.
 
-## Fortune
+### Assisting another character
+
+When one PC is attempting something requiring a check, another PC can assist if their player can describe a reasonable way to do so. If the assisting character can participate as effectively as the one initiating the action (e.g. lifting a portcullis), add all their dice to the check. If the assisting character can help, but not as effective as the main actor (e.g. kicking in a door), add 1d to the check.
+
+### Group checks
+
+When multiple characters collaborate on a prolonged task, a group check is employed.
+
+- When the strongest performance in the group is the deciding factor (like following tracks in the wilderness), the most skilled character rolls the check.
+- Other times, the sum of the group's effort is what's important (like building a raft and getting to the other side of a rapidly flowing river). The Ref sets the Opposition, and all participants roll one check each. To succeed on the overall task, they must all succeed on their checks, but a critical success cancels another participant's failure, and a critical failure cancels another participant's success.
+- When the weakest performance in the group is the deciding factor (like a company of PCs attempting to pass unseen over a palisade), the least skilled participant rolls the check.
+
+### Using checks
+
+The difficulty of a check should default to DC1. The players have each chosen the skills they want to excel at, and challenge should come from the overall precariousness of the situation, not from a high chance of failing within their specialty. The exemption from this is when players attempt actions within their specialty that would be neigh impossible for the average individual. The difficulty of the check should then be adjusted to requiring 2 or even 3 hits.
+
+Tension during a check should come from knowing exactly what will happen if you fail or pass the roll, but not yet knowing which of the two will come to pass.
+
+### Fortune
 At the start of each adventure, the players each get 4 fortune points. Spend 1 fortune point to:
 - Add +2d to a check before it is rolled.
 - Attempt a heroic rescue.
@@ -167,25 +187,7 @@ At the start of each adventure, the players each get 4 fortune points. Spend 1 f
 
 **Push through.** For a check where the fail outcome means not achieving the goal, a player can ask to push through BEFORE the check is rolled. If the Ref agrees, the fail outcome is redefined as achieving the goal, but at a significantly higher cost than the original fail outcome. E.g., a PC is stationed in the clocktower, about to take out the duke with an arrow: a DC3 (very hard) ranged check. Fail on the check = the arrow only grazes him, and it's unclear exactly where the shooter is. Push through fail outcome = the arrow hits and kills the duke, but the PC is immediately spotted up in the clocktower.
 
-#### Assisting another character
-
-When one PC is attempting something requiring a check, another PC can assist if their player can describe a reasonable way to do so. If the assisting character can participate as effectively as the one initiating the action (e.g. lifting a portcullis), add all their dice to the check. If the assisting character can help, but not as effective as the main actor (e.g. kicking in a door), add 1d to the check.
-
-#### Group checks
-
-When multiple characters collaborate on a prolonged task, a group check is employed.
-
-- When the strongest performance in the group is the deciding factor (like following tracks in the wilderness), the most skilled character rolls the check.
-- Other times, the sum of the group's effort is what's important (like building a raft and getting to the other side of a rapidly flowing river). The Ref sets the Opposition, and all participants roll one check each. To succeed on the overall task, they must all succeed on their checks, but a critical success cancels another participant's failure, and a critical failure cancels another participant's success.
-- When the weakest performance in the group is the deciding factor (like a company of PCs attempting to pass unseen over a palisade), the least skilled participant rolls the check.
-
-#### Using checks
-
-The difficulty of a check should default to DC1. The players have each chosen the skills they want to excel at, and challenge should come from the overall precariousness of the situation, not from a high chance of failing within their specialty. The exemption from this is when players attempt actions within their specialty that would be neigh impossible for the average individual. The difficulty of the check should then be adjusted to requiring 2 or even 3 hits.
-
-Tension during a check should come from knowing exactly what will happen if you fail or pass the roll, but not yet knowing which of the two will come to pass.
-
-#### Dice probabilities
+### Dice probabilities
 
 | Skill level | Roll | 1+ Hits | 2+ Hits | 3+ Hits |
 |---|---|---|---|---|
@@ -281,6 +283,15 @@ In addition to this, each character has 5 encumbrance slots (marked with ENC on 
 | 5 | Medium armor (3 slots, 2 armor points) |
 | 6 | Medium armor and shield |
 
+### Armor
+
+| Type | Example | Damage reduction | Skill Penalty | Slots | Price |
+|---|---|---|---|---|---|
+| Light | Leather | - | - | 2 | 25 |
+| Medium | Chain | 1 | - | 3 | 75 |
+| Heavy | Plate | 2 | -1d to grace | 4 | 300 |
+| Heavy | Plate | 3 | -2d to grace | 4 | 300 |
+
 ### Gear (d20)
 
 | d20 | Item | Description |
@@ -373,14 +384,6 @@ In addition to this, each character has 5 encumbrance slots (marked with ENC on 
 | 49 | Horse Trainer | 99 | Vagabond |
 | 50 | Hunter | 00 | Weaver |
 
-### Armor
-
-| Type | Example | Damage reduction | Skill Penalty | Slots | Price |
-|---|---|---|---|---|---|
-| Light | Leather | - | - | 2 | 25 |
-| Medium | Chain | 1 | - | 3 | 75 |
-| Heavy | Plate | 2 | -1 to grace | 4 | 300 |
-| Heavy | Plate | 3 | -2 to grace | 4 | 300 |
 
 ---
 
@@ -757,155 +760,30 @@ To determine who notices who first, roll 1d6: On a:
 
 ### Random wilderness event tables (d20)
 
-**1. Disaster Strikes**
+Roll 1d6 to pick the category, then 1d20 for the result within it.
 
-| d20 | Result |
-|---|---|
-| 1 | Ascent/decent |
-| 2 | Trip or fall |
-| 3 | Dangerous/slippery path |
-| 4 | Rock-/mudslide/avalanche |
-| 5 | Trap |
-| 6 | Loose rocks |
-| 7 | Slippery ground |
-| 8 | Falling branch |
-| 9 | River crossing |
-| 10 | Wildlife attack |
-| 11 | Hunter becomes hunted |
-| 12 | *(unlisted in source)* |
-| 13 | Hunting accident |
-| 14 | Stampede |
-| 15 | Accident during fog |
-| 16 | Storm |
-| 17 | Cut |
-| 18 | Snakebite |
-| 19 | Poisonous plant/mushroom |
-| 20 | Fire/heat |
-
-**2. Hopelessness and Frustration**
-
-| d20 | Result |
-|---|---|
-| 1 | Map shows glaring errors |
-| 2 | Blocked trail/path |
-| 3 | Impenetrable thicket |
-| 4 | Dead end |
-| 5 | Thorns, torn clothes or gear |
-| 6 | Spooked game |
-| 7 | Unattended camp |
-| 8 | Unseen obstacle |
-| 9 | Food going bad |
-| 10 | Soaked clothes and equipment |
-| 11 | Cold or heat |
-| 12 | *(unlisted in source)* |
-| 13 | Difficulties lighting fire |
-| 14 | Unsuitable camping ground |
-| 15 | Thunderstorm |
-| 16 | Cursed hunt/bad luck |
-| 17 | Foul tasting catch |
-| 18 | Insects |
-| 19 | Deceptive mirage |
-| 20 | Lost supplies |
-
-**3. Fear**
-
-| d20 | Result |
-|---|---|
-| 1 | Fire |
-| 2 | Quicksand |
-| 3 | Signs of dangerous predator |
-| 4 | Feral animal(s) |
-| 5 | Fog/maze-like terrain |
-| 6 | Bridge/path collapses |
-| 7 | Otherworldly presence |
-| 8 | Sounds during the night |
-| 9 | Dangerous wildlife |
-| 10 | Almost poisoned |
-| 11 | Dark history at location |
-| 12 | Animals serving the enemy |
-| 13 | Burial grounds |
-| 14 | Dead travelers |
-| 15 | Deranged hunter/traveler |
-| 16 | Grisly scene or portent |
-| 17 | Malevolent being |
-| 18 | Scary terrain |
-| 19 | Someone almost killed |
-| 20 | Frightening silhouette |
-
-**4. Wavering Faith**
-
-| d20 | Result |
-|---|---|
-| 1 | Ruminating on choices |
-| 2 | Hard to stay awake on watch |
-| 3 | Game spooked |
-| 4 | Injured pray |
-| 5 | Rookie mistake |
-| 6 | Inadequate shelter |
-| 7 | Misjudging terrain difficulty |
-| 8 | Confusing environment |
-| 9 | Misread weather signs |
-| 10 | Loosing tracks or path |
-| 11 | Lost |
-| 12 | Faulty map reading |
-| 13 | Misguided shortcut |
-| 14 | Misjudging distance |
-| 15 | Damages/looses equipment |
-| 16 | Disastrous cooking |
-| 17 | Unsure about edibility |
-| 18 | Failure preserving rations |
-| 19 | Animals gets to rations |
-| 20 | Too much salt |
-
-**5. Renewed Faith**
-
-| d20 | Result |
-|---|---|
-| 1 | Hidden or forgotten trail or road |
-| 2 | Hidden pass or ford |
-| 3 | Old signpost |
-| 4 | Gamble pays off |
-| 5 | Easy terrain |
-| 6 | Not lost anymore |
-| 7 | Tip from local hunter |
-| 8 | Spotting dead end early |
-| 9 | High ground revelation |
-| 10 | Well functioning camp |
-| 11 | Tough hunt well executed |
-| 12 | Animal trail |
-| 13 | Plentiful game |
-| 14 | Well planned supplies |
-| 15 | Gear holding up |
-| 16 | Nature's bounties |
-| 17 | Finding the way out |
-| 18 | Sighting aids navigation |
-| 19 | Useful flora |
-| 20 | Cuts or small wounds treated |
-
-**6. Gratitude**
-
-| d20 | Result |
-|---|---|
-| 1 | Moving song |
-| 2 | Friendly locals |
-| 3 | Sharing campfire stories |
-| 4 | Abandoned resources |
-| 5 | Blessed pool |
-| 6 | Hot springs |
-| 7 | Beautiful morning |
-| 8 | Meteor shower |
-| 9 | Hidden oasis/glade |
-| 10 | Natural shelter |
-| 11 | Favorable weather |
-| 12 | Breathtaking view |
-| 13 | Hearty breakfast |
-| 14 | Excellent dinner |
-| 15 | Safe campsite |
-| 16 | Sturdy camp during storm |
-| 17 | Rear animal/bird sighting |
-| 18 | Awaited landmark |
-| 19 | Lost shrine or monument |
-| 20 | High quality catch |
+| d20 | 1. Disaster Strikes | 2. Hopelessness and Frustration | 3. Fear | 4. Wavering Faith | 5. Renewed Faith | 6. Gratitude |
+|---|---|---|---|---|---|---|
+| 1 | Ascent/decent | Map shows glaring errors | Fire | Ruminating on choices | Hidden or forgotten trail or road | Moving song |
+| 2 | Trip or fall | Blocked trail/path | Quicksand | Hard to stay awake on watch | Hidden pass or ford | Friendly locals |
+| 3 | Dangerous/slippery path | Impenetrable thicket | Signs of dangerous predator | Game spooked | Old signpost | Sharing campfire stories |
+| 4 | Rock-/mudslide/avalanche | Dead end | Feral animal(s) | Injured pray | Gamble pays off | Abandoned resources |
+| 5 | Trap | Thorns, torn clothes or gear | Fog/maze-like terrain | Rookie mistake | Easy terrain | Blessed pool |
+| 6 | Loose rocks | Spooked game | Bridge/path collapses | Inadequate shelter | Not lost anymore | Hot springs |
+| 7 | Slippery ground | Unattended camp | Otherworldly presence | Misjudging terrain difficulty | Tip from local hunter | Beautiful morning |
+| 8 | Falling branch | Unseen obstacle | Sounds during the night | Confusing environment | Spotting dead end early | Meteor shower |
+| 9 | River crossing | Food going bad | Dangerous wildlife | Misread weather signs | High ground revelation | Hidden oasis/glade |
+| 10 | Wildlife attack | Soaked clothes and equipment | Almost poisoned | Loosing tracks or path | Well functioning camp | Natural shelter |
+| 11 | Hunter becomes hunted | Cold or heat | Dark history at location | Lost | Tough hunt well executed | Favorable weather |
+| 12 | *(unlisted in source)* | *(unlisted in source)* | Animals serving the enemy | Faulty map reading | Animal trail | Breathtaking view |
+| 13 | Hunting accident | Difficulties lighting fire | Burial grounds | Misguided shortcut | Plentiful game | Hearty breakfast |
+| 14 | Stampede | Unsuitable camping ground | Dead travelers | Misjudging distance | Well planned supplies | Excellent dinner |
+| 15 | Accident during fog | Thunderstorm | Deranged hunter/traveler | Damages/looses equipment | Gear holding up | Safe campsite |
+| 16 | Storm | Cursed hunt/bad luck | Grisly scene or portent | Disastrous cooking | Nature's bounties | Sturdy camp during storm |
+| 17 | Cut | Foul tasting catch | Malevolent being | Unsure about edibility | Finding the way out | Rear animal/bird sighting |
+| 18 | Snakebite | Insects | Scary terrain | Failure preserving rations | Sighting aids navigation | Awaited landmark |
+| 19 | Poisonous plant/mushroom | Deceptive mirage | Someone almost killed | Animals gets to rations | Useful flora | Lost shrine or monument |
+| 20 | Fire/heat | Lost supplies | Frightening silhouette | Too much salt | Cuts or small wounds treated | High quality catch |
 
 ---
 
@@ -1095,38 +973,3 @@ During challenges in the wilderness, each relevant piece of equipment for the ch
 | Lock picks | | 10 |
 | Whetstone | | 2 |
 | Fire arrows | | 5 |
-
----
-
-## MAGIC
-
-### Paradigm
-
-How does the practician perform magic? Demonic pacts? Voodoo? Calling upon heathen gods? Spilling their own blood?
-
-The sorcerer chooses their spell and the Opposition. Attempting the spell has a base cost of fatigue points equal to the Opposition.
-
-- **Critical:** Effect achieved, half fatigue cost (rounded down)
-- **Success:** Effect achieved
-- **Failure:** Effect achieved, double fatigue cost
-- **Fumble:** Half effect achieved (if possible), double fatigue cost.
-
-The effect has a good chance of happening by coincidence? ADV.
-
-The effects is obviously caused by magic? DIS.
-
-### Custom spell
-
-Describe effect. Ref sets DC between 1 and 5. This is also the fatigue cost. Success = happens. Critical = half cost. Failure = Happens but at double cost. Fumble = no effect, normal cost.
-
-### Mend
-
-- Requires touching the person.
-- Heals 2 HP x DC.
-- DC 1/2/3 to prevent a gravely wounded person who rolled a 4/3/2 from dying.
-
-### Rend
-
-- Must be able to see the victim.
-- Inflict 2 damage x DC. Does not inflict wound.
-- Kill a person = DC 5.
