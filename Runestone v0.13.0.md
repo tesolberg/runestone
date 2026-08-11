@@ -41,7 +41,7 @@ This work is released under CC BY-NC 4.0.
 
 This is an early alpha. Feedback can be given on the https://github.com/tesolberg/runestone page, or on the Discord server.
 
-### WHAT IS THIS AND WHY DID I MAKE IT?
+### What is this and why did I make it?
 
 I wanted to play sword and sorcery adventures with a game system rigged for:
 
@@ -62,7 +62,7 @@ This is what I came up with. The game is still under development. If you read or
 
 ## PLAYING THE GAME
 
-### GAME PROCEDURES
+### Game procedures
 
 Runestone has four main procedures, covering the most important aspects of play:
 
@@ -71,50 +71,25 @@ Runestone has four main procedures, covering the most important aspects of play:
 - [Travel](#overland-travel).
 - [Site exploration](#site-exploration). Used for exploring dangerous areas like tombs, ruins, hostile fortresses etc.
 
-The basic scene procedure is usually implicitly engaged when the Ref describes a new scene. A shift to combat, travel or site exploration is stated explicitly by the Ref.
+The basic scene procedure is usually implicitly engaged when the Referee (Ref) describes a new scene. A shift to combat, travel or site exploration is stated explicitly by the Ref.
 
-### SCENES
+### Scenes
 
 A scene is any situation that will be played out in detail in order to resolve an interesting choice or interaction. Situations or events without an interesting choice or interaction are not considered scenes, and are described in broad strokes by the Ref (or players) when needed. A scene is over when the interesting choice or interaction has been resolved.
 
 When one scene ends, the Ref moves the game to the beginning of the next scene (i.e. the next interesting situation), stitching the two scenes together with broad stroked-description when necessary.
 
-### THE BASIC SCENE PROCEDURE
+### The basic scene procedure
 
 This game's main procedure has 4 steps:
 
-1. **Describe the scene.** The Ref describes the scene from the player characters' (PCs) point of view.
-2. **Clarification.** The players can ask clarifying questions about the scene, and the Ref answers questions based on what the characters can reasonably observe from their current vantage point. If a player's requested information requires specific actions to uncover, the Ref explains the action needed to answer the question.
+1. **Describe the scene.** The Ref describes the scene from the player characters' (PCs') point of view.
+2. **Clarification.** The players can ask clarifying questions about the scene, and the Ref answers questions based on what the characters can reasonably observe from their current vantage point. If an action is required to uncover the requested information, the Ref explains the needed action.
 3. **Describe actions.** The players describe what they do.
 4. **Resolve actions.**
    1. Actions that are not risky just happen as the players describe them.
    2. Risky actions are resolved with a check.
-5. **Impact.** The Ref describes the impact the players' actions have on their environment, and the procedure either returns to step 3 or the Ref transitions the game to a new scene.
-
-#### Resolving actions
-
-Most actions should be resolved by simply finding a plausible outcome, given the proposed action and how the fictional game world is supposed to work. The players will often do this on their own, with no need for the Ref to provide a second description of their action. If, on the other hand, the action seems like it simply will not work, the Ref tells the player. If the action is risky (something valuable is at stake), the Ref asks for a check.
-
-What is at stake can be anything related to the players' goals or their means to achieve their goals, including, but not limited to:
-
-- Opportunities
-- A relationship to an NPC
-- Items that is not easily replaced
-- A favorable position
-- Useful information
-- Money
-- Their health
-- Available inventory slots
-- Time
-
-The watermark of a risky action is that both succeeding and failing significantly alter the world state. If failing does not alter the world state (i.e. the situation is in all significant aspects the same as it was before the action), the action is not risky.
-
-Risky actions are resolved with a check. If unsure about the viability or risk of a plan, it is usually helpful to clarify two aspects:
-
-1. **Intent.** What is the goal?
-2. **Plan.** How is the player accomplishing it?
-
-#### Zooming the basic scene procedure in and out
+5. **Impact.** The Ref describes the impact the players' actions have on their environment, and the game either returns to step 3 where the players describe their next actions, or the Ref transitions the game to a new scene.
 
 The basic scene procedure is zoomed in or out to match the scale of the scene's focus, i.e. the scale of the interesting choice(s) and interactions.
 
@@ -122,19 +97,47 @@ The basic scene procedure is zoomed in or out to match the scale of the scene's 
 
 **Zoomed-in example:** The Ref describes the company arriving at the manor of an allied minor noble, only to find the grounds eerily quiet, and the main door to the manor visibly forced open. The players narrates how they quietly enter the building, and the Ref describes how they arrive in the main hall, and that they suddenly hear a creak from a floorboard in the next room. The Ref asks the players what they do. After some frantic hand-signaling, one player states she moves to the door where the sound emanated from, while the other players indicate they stay put and keep quiet to not give away their presence. The Ref describes the PC now standing by the door hearing a soft shuffling sound on the other side, like someone turning over pages in a book.
 
-### CHECKS
+#### Resolving actions
+
+The players describe what they do, and there is usually no need for the Ref to provide a second description of their action. The Ref goes directly into describing how the environment reacts based on how the fictional game world is supposed to work. If the action seems like it simply will not work, the Ref tells this to the player. If the action is risky, the Ref asks for a check.
+
+##### Risky actions
+The short definition of a risky action is that something valuable is at stake. This can be anything related to the players' goals or their means to achieve their goals, including, but not limited to:
+
+- Opportunities
+- A relationship to an NPC
+- The wellbeing of an NPC
+- The wellbeing of the PCs
+- Items that is not easily replaced
+- A favorable position
+- Useful information
+- Money
+- Available inventory slots
+- Time
+
+The more involved definition of a risky action is that both succeeding and failing significantly alter the world state. If failing does not alter the world state (i.e. the situation is in all significant aspects the same as it was before the action), the action is not risky.
+
+Risky actions are resolved with a check. If unsure about the viability or risk of a plan, it is usually helpful to clarify two aspects:
+
+1. **Intent.** What is the goal?
+2. **Plan.** How is the player accomplishing it?
+
+### Checks
 
 The core resolution mechanic is called a check. To resolve a check:
 
 1. **Clarify goal.** The player defines what happens if the check succeeds.
-2. **Clarify risk.** The Ref defines what happens if the check fails, and sets a difficulty class (DC) of 1 (default), 2 (hard) or 3 (very hard), representing how hard it is to avoid the risk.
+2. **Clarify risk.** The Ref defines what happens if the check fails, and sets the check's difficulty to either hard (requires 1 hit), very hard (requires 2 hits) or herculean (requires 3 hits). The difficulty represents how hard it is to avoid the failure state.
 3. **Choose skill.** The Ref decides which skill applies to the action. If more than one skill could reasonably apply, the player chooses which of those skills to use.
-4. **Roll dice.** The player rolls a number of d6s equal to their skill level. Every 4+ counts as a hit. Every 6 explodes and the player rolls an additional d6. If the player scores a number of hits equal to or greater than the DC, they achieve their goal and avoid the risk. If they score less hits then the DC the risk materializes.
+4. **Roll dice.** If the player accepts the odds and goes through with their action, they roll a number of d6s equal to their skill level. Every 4+ counts as a hit. Every 6 "explodes" and the player rolls an additional d6. If the player scores a number of hits equal to or greater than the required number, they achieve their goal and avoid the risk. If they score less hits then required the failure state defined by the Ref materializes.
 5. **Description.** The player describes the outcome based on step 1 and 2. If the outcome reveals new information about the world, the Ref provides it.
+
+> **REF INFO**
+> Before the dice are rolled, it should be clear to everyone at the table what will happen on a failed check, and on a successful check. Therefore, there is no reason why the player should not themselves narrate how their action succeeds or fails.
 
 #### Supreme outcomes
 
-Rolling one or more hits above the DC indicates a supreme outcome. When you get a supreme outcome, choose one additional effect from the list below and incorporate it into step 5 above.
+Rolling one or more hits above the requirement indicates a supreme outcome. When you get a supreme outcome, choose one additional effect from the list below and incorporate it into step 5 above.
 
 - **Speed.** The action is completed in significantly shorter time than normal.
 - **Stealth.** The action is performed without drawing unwanted attention.
@@ -146,17 +149,19 @@ Rolling one or more hits above the DC indicates a supreme outcome. When you get 
 
 #### Opposed checks
 
-When one character goes up against another in a contest, each roll a number of d6s equal to their relevant skill level, and the one rolling the most hits wins. Rolling the same number of hits signifies an unchanged situation.
+When one character goes up against another in a contest, each rolls a number of d6s equal to their relevant skill level, and the one rolling the most hits wins. If they roll the same number of hits, the dice with the highest number from both rolls are compared, with the highest die winning. If the highest die is equal, the next highest dice are compared, etc. A tied result signifies an unchanged situation, usually favoring the defender, if there is one.
 
-#### Advantage and disadvantage
+Rolling 1 or more hits over the opponent signifies a better outcome for the one winning the check, and is used during combat to resolve attacks.
 
-When you have a significant advantage (ADV) or disadvantage (DIS) in the fictional situation, add or remove 1d6 before you roll, respectively. In cases where both ADV and DIS applies, they cancel each other out, regardless of how many there are of each. If DIS nets you 0d6, roll 2d6 and keep the lowest.
+#### Modifiers to checks
 
-#### ASSISTING ANOTHER CHARACTER
+When you have a significant advantage or disadvantage in the fictional situation, add or remove 1d6 before you roll, respectively (signified as +1d and -1d). If a roll nets you 0d6, roll 2d6 and keep the lowest.
+
+#### Assisting another character
 
 When one player is attempting something requiring a check, another player can assist if they can describe a reasonable way to do so. The character receiving help gains ADV on their check.
 
-#### GROUP CHECKS
+#### Group checks
 
 When multiple characters collaborate on a prolonged task, a group check is employed.
 
@@ -164,41 +169,25 @@ When multiple characters collaborate on a prolonged task, a group check is emplo
 - Other times, the sum of the group's effort is what's important (like building a raft and getting to the other side of a rapidly flowing river). The Ref sets the Opposition, and all participants roll one check each. To succeed on the overall task, they must all succeed on their checks, but a critical success cancels another participant's failure, and a critical failure cancels another participant's success.
 - When the weakest performance in the group is the deciding factor (like a company of PCs attempting to pass unseen over a palisade), the least skilled participant rolls the check.
 
-#### USING CHECKS
+#### Using checks
 
 The difficulty of a check should default to DC1. The players have each chosen the skills they want to excel at, and challenge should come from the overall precariousness of the situation, not from a high chance of failing within their specialty. The exemption from this is when players attempt actions within their specialty that would be neigh impossible for the average individual. The difficulty of the check should then be adjusted to requiring 2 or even 3 hits.
 
 Tension during a check should come from knowing exactly what will happen if you fail or pass the roll, but not yet knowing which of the two will come to pass.
 
-#### Die Probabilities
+#### Dice probabilities
 
-Probability of scoring at least the DC's worth of hits, by DC and number of dice rolled:
-
-| DC \ dice | 0d | 1d | 2d | 3d | 4d | 5d | 6d |
-|---|---|---|---|---|---|---|---|
-| 1 | .25 | .50 | .75 | .88 | .94 | .97 | .98 |
-| 2 | .00 | .00 | .25 | .50 | .69 | .81 | .89 |
-| 3 | .00 | .00 | .00 | .12 | .31 | .50 | .66 |
-
-Probability of rolling at least N hits, by number of dice rolled:
-
-| Dice | 1+ hits | 2+ hits | 3+ hits | 4+ hits |
+| Skill level | Roll | 1+ Hits | 2+ Hits | 3+ Hits |
 |---|---|---|---|---|
-| 1 | .50 | .08 | .01 | .00 |
-| 2 | .75 | .33 | .09 | .02 |
-| 3 | .88 | .56 | .25 | .08 |
-| 4 | .94 | .73 | .43 | .20 |
-| 5 | .97 | .84 | .60 | .34 |
-| 6 | .98 | .91 | .73 | .49 |
+| Untrained | 2d6 keep lowest | 25% | 1% | 0% |
+| Trained | 1d6 | 50% | 8% | 1% |
+| Veteran | 2d6 | 75% | 33% | 9% |
+| Elite | 3d6 | 88% | 56% | 25% |
+| Master | 4d6 | 94% | 73% | 43% |
+| Grand Master | 5d6 | 97% | 84% | 60% |
+| Legend | 6d6 | 98% | 91% | 73% |
 
-#### Skill Levels (summary)
 
-| Skill Level | Description |
-|---|---|
-| 1 | Average |
-| 2 | Adept |
-| 3 | Veteran |
-| 4 | Master |
 
 ---
 
@@ -212,7 +201,7 @@ To create a character, go through the following steps:
 4. **Hit points (HP).** Note your maximum hit points (8 + grit) on your character sheet.
 5. **Name your character.**
 
-### SKILLS
+### Skills
 
 The skills of Runestone are selected so that each skill embodies a sword and sorcery-archetype.
 
@@ -241,7 +230,7 @@ Your character's backgrounds describe what he or she has done before answering t
 
 Several blank skill entries have been included on the character sheet to accommodate custom skills.
 
-### CHARACTER PROGRESSION
+### Character progression
 
 When you fail a check, and the skill's "F" box is unchecked, check the "F" box and add one mark on the skill's accumulator field.
 
@@ -251,7 +240,7 @@ All checked F-boxes are cleared at the end of each session.
 
 Should a PC reach level 6 (indicating legendary capabilities), but wants to continue advancing the skill in further sessions, the cost of advancing to new levels follows the same pattern as before, i.e. 16 marks for level 7, 18 marks for level 8 etc.
 
-### INVENTORY
+### Inventory
 
 Carried items occupy inventory slots based roughly on weight and bulk:
 
@@ -269,7 +258,7 @@ Retrieving an equipped item can be done for free once on your turn during combat
 
 Retrieving a stowed item during combat (or your second retrieval of an equipped item that turn) costs an action.
 
-### CARRYING CAPACITY AND ENCUMBRANCE
+### Carrying capacity and encumbrance
 
 All characters can use all 10 equipment slots, 2 stowed slots and 5 encumbrance slots (marked with ENC on the character sheet).
 
@@ -289,7 +278,7 @@ You can gain several instances of fatigue, each taking up one slot, signifying a
 
 Spending a whole day and night resting in a settlement or safe haven clears 2 instances of fatigue. This requires that the character does little more than sipping beverage and keeping their legs up for the whole waking part of the day.
 
-### Starting Shield and Armor (d6)
+### Starting shield and armor (d6)
 
 | d6 | Result |
 |---|---|
@@ -324,7 +313,7 @@ Spending a whole day and night resting in a settlement or safe haven clears 2 in
 | 19 | Spyglass | |
 | 20 | Cooking Kit | A small pot, frying pan and utensils. |
 
-### Skill Levels (progression table)
+### Skill levels (progression table)
 
 *Reconstructed from a jumbled two-column layout; the Level/Description pairing is inferred from context.*
 
@@ -410,7 +399,7 @@ Combat is not meant to be played out on a grid. Even so, tokens and a wet-erase 
 
 Notice that the rules for 1-on-1 combat is symmetrical, favoring neither attacker nor defender. This means that many combat situations can be played out without going into strict turn order, but instead describing actions more freely, resolving bouts as they happen.
 
-### INITIATION OF TURN ORDER
+### Initiation of turn order
 
 1. The Skirmish rules are engaged when the Ref declares that the game enters turn order.
 2. Combatants are placed in zones. The players choose their starting zone as long as it is reasonable in the fiction.
@@ -429,7 +418,7 @@ When the Turn passes to the Ref, the NPCs all get their Turn to act in the order
 5. Clashes are resolved
 6. Other actions (including extra movement)
 
-### ACTIONS IN COMBAT
+### Actions in combat
 
 Any action that can be performed within approximately 10 seconds can be attempted during a Turn. Actions are resolved with the standard rules for action resolution, but some common actions are given extra specifications:
 
@@ -447,7 +436,7 @@ A combatant that has already been attacked this Turn cannot be attacked in melee
 
 Up to 5 human-sized combatants can engage 1 human-sized foe in melee at the same time.
 
-### MELEE ATTACKS
+### Melee attacks
 
 When a PC attacks or is attacked by an NPC, the player rolls a melee check against the opponent's combat DC and counts up the hits:
 
@@ -532,7 +521,7 @@ One combatant can protect one ally from one opponent, effectively hindering an o
 
 When you cause a wound with a piercing weapon, you can choose to leave the weapon impaled in your opponent. The opponent performs all checks at DIS until the weapon is removed. Removing the weapon causes an automatic wound.
 
-### RANGED ATTACKS
+### Ranged attacks
 
 Ranged attacks are resolved like melee attacks, but attackers use the ranged skill, and the attack can only be dodged (the target must use grace and cannot gain any gambits).
 
@@ -545,7 +534,10 @@ Ranged attacks have their own list of gambits:
 - **Attack again.** Immediately perform another attack at -1 support.
 - **Over-penetration.** The missile goes through your target and inflicts weapon damage to an opponent directly behind the target. Must be combined with the damage gambit.
 
-Ranged attacks gets DIS when the target is far away, prone, in partial cover or wielding a shield. What is considered far away must be adjudicated by the Ref. 20 meters or more than 2 zones is the suggested guideline when using a bow.
+Ranged attacks gets DIS when the target is far away, prone, in partial cover or wielding a shield.
+
+> **REF INFO**
+> What counts as "far away" is your call. 20 meters or more than 2 zones is the suggested guideline when using a bow.
 
 If a ranged attack misses, one randomly selected combatant in the same zone to the target (if there is any) takes weapon damage from the missile.
 
@@ -553,13 +545,13 @@ If a ranged attack misses, one randomly selected combatant in the same zone to t
 
 If you spend an action aiming, you gain +1 to your next ranged attack, as long as you are not attacked and do nothing but aim in the meantime.
 
-### ZONES AND MOVEMENT
+### Zones and movement
 
 During combat, distances are abstracted into zones. All combatants in one zone can interact with each other (e.g. perform ranged and melee attacks, oppose actions etc).
 
 When visualizing zones, do not draw realistic maps. Instead, draw boxes with an identifying feature in them (a box with a table and chair for the common room of the tavern and a box with "Bar" written on it for the bar area). Draw the boxes so that connected zones are in contact with each other.
 
-### WEAPONS
+### Weapons
 
 *The following table's original column-to-row mapping (Damage / Slots / Price against each weapon type) could not be reconstructed with confidence from the extracted layout; the raw values, in the order they appear in the source, are reproduced here for reference against p. 19 of the PDF:*
 
@@ -568,11 +560,11 @@ When visualizing zones, do not draw realistic maps. Instead, draw boxes with an 
 - Slots value: --
 - Additional rows: "1 Varies -", "2 15", "3 1 15", "4 2 20"
 
-### HEALTH AND DYING
+### Health and dying
 
 A creature's health is represented by hit points (HP) and conditions.
 
-#### Hit Points
+#### Hit points
 
 Player characters' maximum HP (max HP) is equal to 8 + grit. When you take damage, check an equal number of "damage-taken" boxes on your character sheet. Loss of HP reflects cuts and bruises.
 
@@ -612,7 +604,7 @@ To knock an NPC unconscious the PC must reduce the HP of the NPC to 0 HP with a 
 
 Many NPCs have Traits. NPCs gets +1 when a Trait indicates that they are especially capable at the task at hand. They get -1 when a Trait suggests the opposite.
 
-### ARMOR
+### Armor
 
 Armor reduces damage from an attack.
 
@@ -625,7 +617,7 @@ Heavy armor impedes performance on actions covered by stealth and grace (see Arm
 | Heavy | Plate | 2 | -1 to grace and stealth | 4 | 300 |
 | Heavy | Plate | 3 | -2 to grace and stealth | 4 | 300 |
 
-### ADVANTAGES AND DISADVANTAGES
+### Advantages and disadvantages
 
 If one opponent has a clear advantage over the other in the fictional situation, this should incur ADV/DIS on relevant checks, including attacks. Examples include:
 
@@ -634,16 +626,17 @@ If one opponent has a clear advantage over the other in the fictional situation,
 - Fighting prone: -1d
 - Performing a ranged attack against a prone target: -1d.
 
-The rules describe several situations that would, in most cases, imply an advantage or disadvantage. Regardless, the fictional situation should always be given precedence when deciding on whether an advantage exists or not. It is the Ref's job to be the final arbiter in these matters.
+> **REF INFO**
+> The rules describe several situations that would, in most cases, imply an advantage or disadvantage. Regardless, the fictional situation should always be given precedence when deciding on whether an advantage exists or not. It is the Ref's job to be the final arbiter in these matters.
 
-### INVENTORY INTERACTION
+### Inventory interaction
 
 - Interacting with an item (e.g. reading from a document, throwing an item, operating a winch) is an action.
 - Dropping an item during your turn is a free action. Recovering a dropped item is an action.
 - Retrieving or stashing an equipped item (like sheathing or drawing a weapon) is a free action once on your turn. Doing so again during the same turn is an action.
 - Retrieving or stashing a stowed item is an action.
 
-### MOUNTED COMBAT
+### Mounted combat
 
 When attacking or defending on horseback against opponents on foot, roll melee +1. When you attack and you spent your last turn charging your opponent, you gain +2 instead of +1.
 
@@ -657,7 +650,7 @@ When attacking or defending on horseback against opponents on foot, roll melee +
 | 2 | As above, but dying in 1 hour unless prevented by a very hard apothecary check. If successful, you gain a condition and wake up in 1d6 hours. |
 | 1 | You are already dead. |
 
-### EXAMPLE NPCS
+### Example NPCs
 
 **Bandit rabble**
 
@@ -727,7 +720,7 @@ If the company has the means and are able to procure them, they can bring horses
 - A horse needs 1 slot worth of fodder each day to avoid gaining an instance of fatigue.
 - When entering a desert hex for the first time each day, a horse must drink water equal to one full waterskin, or gain 2 instances of fatigue.
 
-### BOX: TRAVEL DAY PROCEDURE
+### Box: travel day procedure
 
 1. **Weather.** The Ref rolls and describes the weather to the players.
 2. **Calculate travel points.** 8 TP is the default. -2 TP if encumbered or injured. -4 TP if encumbered and injured. Mounted characters does not incur penalty to TP. -2 TP for bad weather.
@@ -737,15 +730,15 @@ If the company has the means and are able to procure them, they can bring horses
    2. Overt features connected to a hex that is entered are described to the players, and interactions are resolved.
 5. **End of day.** The Ref removes one token of the watch stack.
 
-### TERRAIN
+### Terrain
 
 Terrain are classified as either regular, difficult or impassable (see Terrain table below). When calculating the cost to enter a hex, count 1 hex of difficult terrain as 2 hexes of regular terrain.
 
-### SHELTER AND SLEEP
+### Shelter and sleep
 
 To get a good night's sleep outdoors you need a bedroll. During bad weather or winter you also need shelter. If you fail to get a good night's sleep, you gain an instance of fatigue.
 
-### ENCOUNTERS
+### Encounters
 
 To determine who notices who first, roll 1d6: On a:
 
@@ -929,19 +922,20 @@ To determine who notices who first, roll 1d6: On a:
 
 A company of adventurers will often find themselves exploring dangerous areas, like haunted ruins, hostile fortifications or ancient tombs inhabited by the restless dead. Such areas are collectively called adventures sites.
 
-### TIME
+### Time
 
 The Ref indicates to the players the current time of day (morning, afternoon, evening, night) to anchor rhythms at the adventure site, e.g. light and darkness, denizens sleeping, hunters leaving to hunt or meal times. The passage of time is not tracked in more detail than this.
 
-### ENCOUNTERS
+### Encounters
 
 Every time the company performs a significant action, makes noise or otherwise potentially draws unwanted attention to themselves, the Ref rolls an encounter die. The size of the encounter die is set by the Ref (the default is a d12). On a 1 the Ref either rolls or picks an encounter from the area's encounter table.
 
-What counts as a significant action must be adjudicated by the Ref. Examples of significant actions are searching a room for hidden doors, moving through an earlier explored area, skimming a manuscript, clearing moss off an old fresco, or anything that would take a couple of minutes to perform.
+> **REF INFO**
+> What counts as a significant action is your call. Examples include searching a room for hidden doors, moving through an earlier explored area, skimming a manuscript, clearing moss off an old fresco, or anything that would take a couple of minutes to perform.
 
 The Ref rolls the encounter die in the open so the players can see the size of the die (and the frequency of encounters) and the result.
 
-### LIGHT
+### Light
 
 Common sources of light available to adventurers are:
 
@@ -956,7 +950,7 @@ Fire is usually created with a tinderbox. Creating a flame with a tinderbox take
 
 Lamp oil are hard to ignite and cannot be used as a molotov cocktail. Greek fire, pitch or tar would be better alternatives for incendiaries.
 
-### SNEAKING AND HIDING
+### Sneaking and hiding
 
 When a company explores a dangerous site, it is assumed that they are doing what they can to move undetected at all times.
 
@@ -970,7 +964,7 @@ Hiding is done by interacting with the game world: Finding a suitable spot to hi
 
 To ambush a group of opponents, the ambushers must first notice their opponents. The Ref then sets a difficulty depending on the situation and the ambusher with the lowest stealth rolls a stealth check.
 
-### DOORS
+### Doors
 
 When encountering a locked door, the lock is given an opposition between 0 to 4 by the Ref. When a character has access to lockpicks and unlimited time, they can successfully pick any lock up to an opposition 2 above their skill level.
 
@@ -978,7 +972,7 @@ When in a risky situation (e.g. trying to unlock a door before being noticed by 
 
 Locked doors can usually be broken through as long as the characters have suitable gear for the job (crowbars, axes etc.). Braking down a door causes a lot of noise and will usually trigger an escalation.
 
-### SEARCHING
+### Searching
 
 When a character searches the right spot, they find what is there.
 
@@ -986,17 +980,17 @@ When a character searches the right spot, they find what is there.
 
 ## EQUIPMENT AND ECONOMICS
 
-### COINS AND MONEY
+### Coins and money
 
 1 gold piece (gp) = 100 silver pieces (sp) = 10 000 copper pieces (cp).
 
 1 silver piece is the average daily wage of unskilled labor, and will pay for one person's room and board of adequate quality for 1 day. All prices are given in sp if not otherwise specified.
 
-### BUYING AND SELLING ITEMS
+### Buying and selling items
 
 Players can expect to buy an item at the amount listed in this chapter, and sell an item for 50% of it's value, given access to a suitable market for the item. Settlement size decides the availability of items of different value categories. See the Item Availability table on the next page for the amount (or probability) of finding a buyer, or a seller, for an item in a certain value range. Availability is "refreshed" every week.
 
-### PACK ANIMALS
+### Pack animals
 
 **Mules**
 
@@ -1005,13 +999,13 @@ Players can expect to buy an item at the amount listed in this chapter, and sell
 - Can travel in all terrain except deserts.
 - Costs 150 sp.
 
-### SURVIVAL GEAR
+### Survival gear
 
 During challenges in the wilderness, each relevant piece of equipment for the challenge gives +1d.
 
 *Example: The company faces a blizzard in the wilderness, and each character must pass a DC2 survival check or gain 1 fatigue. A character with furs, bedroll and a tent receives +3d on the check.*
 
-### Standards of Living
+### Standards of living
 
 | Standard of Living | Daily Cost | Monthly Cost | Professions |
 |---|---|---|---|
@@ -1021,7 +1015,7 @@ During challenges in the wilderness, each relevant piece of equipment for the ch
 | Wealthy | 5 sp | 150 sp | Mayor |
 | Luxurious | 30 sp | 900 sp | Noble |
 
-### Item Availability by Settlement Size
+### Item availability by settlement size
 
 | Item price / settlement size | Hamlet (<50) | Village (50-1k) | Small town (1k-4k) | Large town (4k-8k) | City (>8k) |
 |---|---|---|---|---|---|
@@ -1041,7 +1035,7 @@ During challenges in the wilderness, each relevant piece of equipment for the ch
 | Oil flask | Contains 3 re-fills for a lantern | 2 |
 | Torch (3) | Bundled. One torch lasts 6 turns and provides bright light for 2 adventurers, and dim light for 2 more. | 1 |
 
-### Survival Gear
+### Survival gear
 
 | Item | Details | Price |
 |---|---|---|
@@ -1056,7 +1050,7 @@ During challenges in the wilderness, each relevant piece of equipment for the ch
 
 *Note: the exact price/detail alignment for "Furs" and a couple of adjacent rows was ambiguous in the extracted layout (stray values "1" and "15" appear near this row); cross-check p. 29 of the PDF if exact pricing matters.*
 
-### Food and Drinks
+### Food and drinks
 
 | Description | Price |
 |---|---|
@@ -1065,7 +1059,7 @@ During challenges in the wilderness, each relevant piece of equipment for the ch
 | Fine food and drink for 1 day | 1 sp |
 | Exquisite food and drink for 1 day | 5 sp |
 
-### Homes & Estates
+### Homes & estates
 
 | Description | Price |
 |---|---|
@@ -1087,7 +1081,7 @@ During challenges in the wilderness, each relevant piece of equipment for the ch
 
 *Includes food and lodging*
 
-### Adventuring Gear
+### Adventuring gear
 
 | Item | Details | Price |
 |---|---|---|
@@ -1150,7 +1144,7 @@ Describe effect. Ref sets DC between 1 and 5. This is also the fatigue cost. Suc
 
 ## RUNNING THE GAME
 
-### RUNNING MONSTERS
+### Running monsters
 
 1. Gate defeat by non standard means behind 3 steps.
 2. Each step defaults to an opposed check.
@@ -1159,9 +1153,9 @@ Describe effect. Ref sets DC between 1 and 5. This is also the fatigue cost. Suc
 
 *Example (Norwegian draft note, kept as in the source): "Klatre pillar → Hoppe på ryggen dens → klatre opp halsen → stikke den gjennom hodet." (Climb the pillar → jump on its back → climb up the neck → stab it through the head.)*
 
-### REWARD CREATIVITY
+### Reward creativity
 
-### DOWNPLAY BALANCE
+### Downplay balance
 
 Challenge is important to a good game. Some games handle challenge by trying to carefully balance the strength of the opposition to the strength of the PCs. This necessitates restricting players' creative ideas that would upset this balance.
 
@@ -1173,7 +1167,7 @@ If the players come up with a good plan that turns a challenging situation into 
 
 - Focusing on one PC increases the difficulty of a combat encounter. Spreading out the attacks among several PCs lowers it.
 
-### CHECKS
+### Checks
 
 When deciding outcomes for an action that requires a check, there are three general categories of outcome combinations. The check can be about:
 
@@ -1186,9 +1180,9 @@ If you can't come up with a plausible negative consequence in the case of a fail
 
 Keep a printout of the skills within reach during play, so you can easily find the most relevant skill for an intended action.
 
-### RULINGS
+### Rulings
 
-### NPCS
+### NPCs
 
 Non-player-characters (NPCs) do not have separate skills like player characters do. Instead they have:
 
@@ -1213,7 +1207,7 @@ Non-player-characters (NPCs) do not have separate skills like player characters 
 | 4 | critical hit 1h/2h |
 | 5 | critical hit from 2h |
 
-### ENCOUNTERS
+### Encounters
 
 Pre-roll everything that can be pre-rolled (e.g. type and number of creatures for an encounter, current behavior or goals, initial reaction, whether they are encountered in a lair or not, any treasure that can be found).
 
@@ -1235,7 +1229,7 @@ One encounter should be very dangerous.
 
 Several encounters can involve the same being(s), varying its situation and behavior.
 
-### RUNNING COMBAT
+### Running combat
 
 #### Combatants always have goals
 
@@ -1245,7 +1239,7 @@ Combats are the extension of actors pursuing their goals. Neither goblins nor dr
 
 *Example: A dragon grabs an adventurer as a morning snack, perceiving little risk from the small band of humanoids.*
 
-#### NPC Morale
+#### NPC morale
 
 Check when first ally falls. Check again when half of allies have fallen. When 2/3 of allies have fallen, all but fanatics flee.
 
@@ -1272,7 +1266,7 @@ It is seldom the most interesting solution to kill a PC if he or she is at the m
 - Bound by magic to a sinister plan or will
 - Declared lawless
 
-### COMPLICATIONS FOR FUMBLING
+### Complications for fumbling
 
 Some suggestions for potential trouble:
 
@@ -1293,7 +1287,7 @@ Some suggestions for potential trouble:
 
 The most exciting checks are checks that have about a 50/50 chance of success, and are really important, with high risk and reward. For example, we want to avoid a check where the player has a 5% chance of killing the dragon with an arrow, where failing would mean she misses the shot. A better check would be a 50% chance of killing the dragon, but a miss would result in getting incinerated.
 
-### PROGRESSIVE CHECKS
+### Progressive checks
 
 *Source reference in the document: https://www.optionalrule.com/2021/01/03/progressive-failures-and-rising-tension-in-5th-edition/*
 
@@ -1305,7 +1299,7 @@ My take:
   2. No direct consequence, but a clearly worse position
   3. Consequences
 
-### EVALUATING PLANS
+### Evaluating plans
 
 Some pointers might be of help for a Ref evaluating players' plans. First:
 
@@ -1323,7 +1317,7 @@ Consider modifiers. Are any significant factors influencing the chance of succes
 
 On describing failures: If a skilled character fails a check, describe the result as caused by external factors and bad luck. This helps prevent a slapstick spiral. If, on the other hand, the character is untrained at what they attempted, a description emphasizing lack of skill might be more appropriate.
 
-### ON AGENCY AND INFORMATION
+### On agency and information
 
 When faced with an important choice, the player should have information about the fail state, the success state and the odds, before having to choose between going through with a plan or not. This information helps "calibrate" the fictional situation between player and Ref, making the world predictable to a degree where meaningful choices can be made.
 
@@ -1345,7 +1339,7 @@ Ref: "No, you rolled to see if you hit or not, but the tree is wet, and you woul
 
 Player: "....."
 
-### CONVERSION FROM D20 FANTASY
+### Conversion from d20 fantasy
 
 3 HP x Hit Dice. Use half of level if the monster seems especially bad at something.
 
@@ -1362,7 +1356,7 @@ Each NPC has a demeanor. Human-intelligence creatures can have one of the demean
 
 To introduce some randomness to which demeanor a specific NPC holds, the class demeanor of the NPC can be modified with a roll on the table below. A positive modifier shifts the NPC's demeanor the given number of steps towards the prosocial end of the scale, while a negative modifier shifts it towards the antisocial.
 
-### DEFEATING POWERFUL MONSTERS
+### Defeating powerful monsters
 
 Some monsters are so strong that facing them in a straight up fight would spell doom for your company. If you want to have any hope defeating such creatures you need to formulate a plan where you utilize some form of advantage, resource or vulnerability of the creature.
 
@@ -1382,7 +1376,7 @@ The best plans are those where the initial step(s) can be completed relatively r
 | Very large | 180 | 1 month |
 | *(unlabeled, largest tier)* | *(value not recovered)* | 6 months |
 
-### Demeanor Modification
+### Demeanor modification
 
 | 2d6 | Demeanor Modifier |
 |---|---|
@@ -1435,7 +1429,7 @@ Encounters with creatures can contain clear suggestions pertaining to who notice
 - The attitude of the other party.
 - The adventures' reputation.
 
-### NPC Dispositions
+### NPC dispositions
 
 | Disposition level | Description |
 |---|---|
@@ -1447,7 +1441,7 @@ Encounters with creatures can contain clear suggestions pertaining to who notice
 | 6 – Friendly | This individual is approachable and eager to engage with others in a positive manner. They may help the party as long as it does not incur a significant net cost to themselves. *(Animal equivalent: This animal is curious and non-threatening, showing an interest in interacting peacefully. It may approach to investigate but will not attack or show aggression unless provoked.)* |
 | 7 – Actively Helpful | This individual goes out of its way to assist the party, possibly offering resources, guidance, or aid, even if it incurs a significant net cost to themselves. *(Animal equivalent: This animal is instinctively friendly, either by training or by nature.)* |
 
-### Disposition Modifiers
+### Disposition modifiers
 
 | 2d6 | Disposition Modifier | Probability |
 |---|---|---|
@@ -1537,7 +1531,7 @@ Usual wants: Meat (prefers mutton and human), livestock, playthings.
 
 Usual wants: Meat (prefers mutton and human), gold.
 
-### Black Wyrm
+### Black wyrm
 
 **HP** 15 | **Wounds** 3 | **Ferocity** 2
 
@@ -1586,7 +1580,7 @@ Usual wants: To eat, to sleep and to protect and grow it's hoard.
 
 Usual wants: Money. Wine. Valuable gear. Easy robberies.
 
-### Veteran Infantry
+### Veteran infantry
 
 **HP** 7 | **Wounds** 2 | **Ferocity** 1
 
