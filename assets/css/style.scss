@@ -1,0 +1,73 @@
+---
+---
+
+@import "minima";
+
+body {
+  background-color: #16181d;
+  color: #d8dee4;
+}
+
+.site-header {
+  background-color: #1c1f26;
+  border-bottom: 1px solid #2a2e37;
+}
+
+.site-title,
+.site-title:visited {
+  color: #e8e6e0 !important;
+}
+
+.site-nav .page-link {
+  color: #d8dee4;
+}
+
+a,
+a:visited {
+  color: #7aa2f7;
+}
+
+a:hover {
+  color: #a9c1f9;
+}
+
+.page-content {
+  background-color: #16181d;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #f0ede6;
+}
+
+pre, code {
+  background-color: #1f232b;
+  color: #d8dee4;
+}
+
+table th,
+table td {
+  border-color: #2a2e37;
+  color: #d8dee4;
+}
+
+table th {
+  background-color: #1f232b;
+}
+
+table tr:nth-child(even) {
+  background-color: #1a1d23;
+}
+
+blockquote {
+  color: #a8b0bd;
+  border-left-color: #3a3f4b;
+}
+
+.site-footer {
+  background-color: #1c1f26;
+  color: #a8b0bd;
+}
+
+hr {
+  border-color: #2a2e37;
+}
