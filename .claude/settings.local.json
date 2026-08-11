@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import pypdf; print\\(pypdf.__version__\\)\")",
+      "Bash(python -c \"import pdfplumber; print\\('pdfplumber ok'\\)\")",
+      "Bash(pip install *)",
+      "Bash(where pdftotext *)",
+      "Bash(python -c ' *)",
+      "Bash(pdftotext -layout \"Runestone v0.13.0.pdf\" -)",
+      "Bash(pdftotext -layout \"Runestone v0.13.0.pdf\" \"C:\\\\Users\\\\tor_e\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-tor-e-Projects-Runestone\\\\19e0cbb8-b63d-4dae-afeb-bfca58d743fd\\\\scratchpad\\\\runestone_raw.txt\")",
+      "Bash(pdfinfo \"Runestone v0.13.0.pdf\")"
+    ]
+  }
+}
