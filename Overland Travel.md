@@ -1,9 +1,7 @@
 ---
-title: Runestone — Overland Travel
+title: Overland Travel
 permalink: /overland-travel/
 ---
-
-# RUNESTONE — OVERLAND TRAVEL
 
 *Chapter of [Runestone](/) v0.13.0.*
 
