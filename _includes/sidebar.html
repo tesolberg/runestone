@@ -1,0 +1,10 @@
+<nav class="side-nav" aria-label="Chapters">
+  <ul>
+    {%- for item in site.data.nav -%}
+    {%- assign item_path = item.url | split: '#' | first -%}
+    <li>
+      <a href="{{ item.url }}"{% if page.url == item_path %} class="active"{% endif %}>{{ item.title }}</a>
+    </li>
+    {%- endfor -%}
+  </ul>
+</nav>
